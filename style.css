@@ -66,8 +66,13 @@ h3.externo::after {
     content: '\1F5F8';
 }
 
-
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
 .pagina1 {
+    
     background: url('arquivos/imagemfundo.jpg') no-repeat center center fixed;
     background-size: cover; /* Faz a imagem cobrir todo o fundo sem cortes */
     position: relative; /* Mantém a posição correta */
