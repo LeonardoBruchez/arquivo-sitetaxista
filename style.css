@@ -306,22 +306,27 @@ main img {
 }
 
 
+
 .imagens3 {
-    margin: auto;
-    border-radius: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
     width: 600px;
     max-width: 100%;
     display: block;
-    padding: 20px;
 }
 
 .imagens4 {
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
     width: 600px;
     max-width: 100%;
     display: block;
-    padding:20px;
-    border-radius: 30px;
+    border-radius: 20px;
 }
 
 .buttoninstagram {
