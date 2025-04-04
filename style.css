@@ -300,6 +300,23 @@ main img {
     
 }
 
+
+.imagens3 {
+    margin: auto;
+    border-radius: 20px;
+    max-width: 600px;
+    display: block;
+    padding: 10px;
+}
+
+.imagens4 {
+    margin: auto;
+    border-radius: 20px;
+    max-width: 600px;
+    display: block;
+    padding: 10px;
+}
+
 .buttoninstagram {
     margin: 0px 10px 10px 0px;
     position:fixed;
