@@ -308,18 +308,20 @@ main img {
 
 .imagens3 {
     margin: auto;
-    border-radius: 20px;
-    max-width: 600px;
+    border-radius: 30px;
+    width: 600px;
+    max-width: 100%;
     display: block;
-    padding: 10 20px 10px 10px;
+    padding: 20px;
 }
 
 .imagens4 {
     margin: auto;
-    border-radius: 20px;
-    max-width: 600px;
+    width: 600px;
+    max-width: 100%;
     display: block;
-    padding: 10 20px 10px 10px;
+    padding:20px;
+    border-radius: 30px;
 }
 
 .buttoninstagram {
