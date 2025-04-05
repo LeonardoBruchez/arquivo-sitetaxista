@@ -39,13 +39,37 @@
     }
 }
 
-@keyframes pulsatebutton {
-    0%{
-        box-shadow: 
-        0 0 20px #ffffff,
-        0 0 20px rgb(253, 171, 171);
+@keyframes pulseGlow {
+    0% {
+        transform: scale(1);
+        box-shadow: 0 0 10px rgba(37, 211, 102, 0.5);
+    }
+    50% {
+        transform: scale(1.1);
+        box-shadow: 0 0 20px rgba(37, 211, 102, 0.8);
+    }
+    100% {
+        transform: scale(1);
+        box-shadow: 0 0 10px rgba(37, 211, 102, 0.5);
     }
 }
+
+@keyframes pulseGloww {
+    0% {
+        transform: scale(1);
+        box-shadow: 0 0 10px rgba(240, 2, 113, 0.5);
+    }
+    50% {
+        transform: scale(1.1);
+        box-shadow: 0 0 20px rgba(240, 2, 113, 0.5);
+    }
+    100% {
+        transform: scale(1);
+        box-shadow: 0 0 10px rgba(240, 2, 113, 0.5);
+    }
+}
+
+
 
 
 * {
@@ -205,7 +229,7 @@ nav > a:active {
 
 
 .botao a {
-    text-decoration: none;
+    
     color: white;
 }
 .botao p {
@@ -226,14 +250,37 @@ nav > a:active {
     margin-bottom: 20px;
 }
 .principal aside {
-    padding: 20px;
     color: white;
     background-color:#4e2424;
     min-width: 300px;
-    max-width: 1000px;
+    max-width: 1040px;
     margin: auto;
     border: px solid var(--cor5);
     box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.507);
+    border-radius: 10px;
+
+}
+ 
+
+.listaprincipal > h2 {
+    background-image: linear-gradient(to top,#4e2424,var(--cor5)59%) ;
+    color: white;
+   padding: 7px 0px 4px 0px;
+   margin: 0px;
+   border-radius: 10px 10px 0px 0px;
+}
+
+.listaprincipal > p {
+    padding-left: 20px;
+}
+
+.background-pag2 {
+    background-color:#4e2424;
+    min-width: 300px;
+    max-width: 1040px;
+    height: 600px;
+    display: block;
+    margin: auto;
     border-radius: 10px;
 }
 
@@ -253,6 +300,7 @@ main img {
     display: block;
     padding-top: 10px;
 }
+
 
 .imagens2 {
     margin: auto;
@@ -281,7 +329,7 @@ main img {
     margin-bottom: 100px;
 }
 
-.externo {
+.lista > h2 {
     background-image: linear-gradient(to top,#4e2424,var(--cor5)59%) ;
     color: white;
    padding: 7px 0px 4px 0px;
@@ -340,13 +388,14 @@ main img {
     z-index:999997;
 }
 .buttoninstagram:hover {
-    animation: pulsate 1s ease-in-out;
+    animation: pulseGloww  1s ease-in-out;
 }
 
 .imageinstagram {
-    width:60px;
-    height:60px;
-    box-shadow: none;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%; /* Faz a imagem seguir o formato circular do botão */
+    display: block;
 }
 
 
@@ -365,39 +414,77 @@ main img {
 }
 
 .buttonwhatsapp:hover {
-    animation: pulsatebutton 1s ease-in-out;
-    box-shadow: none;
-    border-radius: 100px rgb(0, 255, 0);
+    animation: pulseGlow 1.2s ease-in-out;
     border-radius:50px;
     z-index:999997;
 }
-
-.buttonwhatsappp {
-    margin: 0px 10px 20px 10px;
-    position:fixed;
-    width:50px;
-    height:50px;
-    bottom:75px;
-    right:15px;
-    border-radius:50px;
-    text-align:center;
-    font-size:30px;
-    z-index:999997;
-}
-.buttonwhatsappp:hover {
-    animation: pulsatebutton 1s ease-in-out;
-    box-shadow: none;
-    border-radius: 100px rgb(0, 255, 0);
-    border-radius:50px;
-    z-index:999997;
-}
-
 
 .imagewhatsapp {
-    width:60px;
-    height:60px;
-    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+    width: 100%;
+    height: 100%;
+    border-radius: 50%; /* Faz a imagem seguir o formato circular do botão */
+    display: block;
 }
+
+.marginbot-next-page {
+    margin: 10px 0px;
+    font-family: helvetica,arial,sans-serif;
+}
+
+.botao-nextpage {
+    padding: 10px;
+    background-image: linear-gradient(to bottom, var(--cor5), #290a0a);
+    width: 260px;
+    height: 52px;
+    margin: auto;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.botao-nextpage:hover {
+    animation: pulsatee 1s ease-in-out forwards;
+}
+.botao-nextpage-link {
+    text-decoration: none;
+}
+
+.botao-nextpage h2,p {
+    color: white;
+}
+
+.marginbot-back-page {
+    margin: 10px 0px;
+    font-family: helvetica,arial,sans-serif;
+}
+
+.botao-backpage {
+    padding: 10px;
+    background-image: linear-gradient(to bottom, var(--cor5), #290a0a);
+    width: 280px;
+    height: 52px;
+    margin: auto;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.botao-backpage:hover {
+    animation: pulsatee 1s ease-in-out forwards;
+}
+.botao-backpage-link {
+    text-decoration: none;
+}
+
+.botao-backpage h2,p {
+    color: white;
+}
+
+
 
 footer {
     background-color: var(--cor1);
