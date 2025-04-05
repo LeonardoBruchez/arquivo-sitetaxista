@@ -54,6 +54,21 @@
     }
 }
 
+@keyframes pulseGloow {
+    0% {
+        transform: scale(1);
+        box-shadow: 0 0 10px rgba(248, 5, 5, 0.651);
+    }
+    50% {
+        transform: scale(1.1);
+        box-shadow: 0 0 20px rgba(248, 5, 5, 0.651);
+    }
+    100% {
+        transform: scale(1);
+        box-shadow: 0 0 10px rgba(248, 5, 5, 0.651);
+    }
+}
+
 @keyframes pulseGloww {
     0% {
         transform: scale(1);
@@ -260,7 +275,96 @@ nav > a:active {
     border-radius: 10px;
 
 }
- 
+  
+.paragrafo-principal-floripa {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+    font-size: 1.25em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #f0f0f0;
+    text-align: justify;
+    line-height: 1.8em;
+}
+
+.conteudo-floripa h2 {
+    color: #ffffff;
+    font-size: 2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.conteudo-floripa h3 {
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #ffd700;
+    font-size: 1.6em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+.conteudo-floripa > p {
+    padding-left: 14px;
+    padding-right: 14px;
+    line-height: 1.7em;
+    padding-bottom: 14px;
+    font-family: 'Georgia', serif;
+    font-size: 1.1em;
+    color: #e0e0e0;
+    text-align: justify;
+    padding-right: 30px;
+}
+
+
+
+.lista-florianopolis > p {
+    line-height: 1.7em;
+    padding-bottom: 14px;
+    font-family: 'Georgia', serif;
+    font-size: 1.1em;
+    color: #e0e0e0;
+    text-align: justify;
+    padding-right: 30px;
+}
+
+.lista-florianopolis li {
+    color: #87ceeb; /* azul claro para destacar o título de cada item */
+    font-size: 1.3em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 2em;
+    text-align: left;
+    text-indent: 0px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.image-1-floripa {
+    margin: auto;
+    border-radius: 20px;
+    max-width: 600px;
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+.image-2-floripa {
+    margin: auto;
+    border-radius: 20px;
+    max-width: 600px;
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+#creditos-aeroporto-floripa {
+    font-size: 10px;
+    text-align: center;
+}
 
 .listaprincipal > h2 {
     background-image: linear-gradient(to top,#4e2424,var(--cor5)59%) ;
@@ -278,7 +382,6 @@ nav > a:active {
     background-color:#4e2424;
     min-width: 300px;
     max-width: 1040px;
-    height: 600px;
     display: block;
     margin: auto;
     border-radius: 10px;
@@ -417,6 +520,10 @@ main img {
 
 }
 
+.email-contato a:hover {
+    animation: pulseGloow 1.2s ease-in-out;
+}
+
 .email-contato {
     text-align: center;
     padding: 25px;
@@ -524,6 +631,7 @@ main img {
 .marginbot-back-page {
     margin: 10px 0px;
     font-family: helvetica,arial,sans-serif;
+    padding-bottom: 10px;
 }
 
 .botao-backpage {
@@ -538,6 +646,7 @@ main img {
     align-items: center;
     justify-content: center;
     text-align: center;
+    
 }
 .botao-backpage:hover {
     animation: pulsatee 1s ease-in-out forwards;
