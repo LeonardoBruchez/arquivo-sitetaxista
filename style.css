@@ -393,7 +393,7 @@ main img {
 }
 
 
-.background-email {
+.background-contato {
     background-image: linear-gradient(to top,#682f2f,var(--cor5)59%) ;
     margin: auto;
     min-width: 300px;
@@ -407,17 +407,37 @@ main img {
     margin-bottom: 10px;
    
 }
-.background-email a {
+.email-contato a {
+    background-color: #420c0c;
+    border-radius: 10px;
+    padding: 10px;
     text-decoration: none;
     color: white;
 
 }
 
-.background-email p {
+.email-contato {
     text-align: center;
+    padding: 25px;
+}
+
+
+.whatsapp-contato a {
+    text-decoration: none;
+    color: white;
+    background-color: #420c0c;
+    border-radius: 10px;
     padding: 10px;
-    
-   
+
+}
+
+.whatsapp-contato {
+    text-align: center;
+    padding: 25px;
+}
+
+.whatsapp-contato a:hover {
+    animation: pulseGlow 1.2s ease-in-out;
 }
 
 .buttoninstagram {
@@ -478,7 +498,7 @@ main img {
 
 .botao-nextpage {
     padding: 10px;
-    background-image: linear-gradient(to bottom, var(--cor5), #290a0a);
+    background-image: linear-gradient(to bottom,#420c0c, #0f0303);
     width: 260px;
     height: 52px;
     margin: auto;
@@ -507,7 +527,7 @@ main img {
 
 .botao-backpage {
     padding: 10px;
-    background-image: linear-gradient(to bottom, var(--cor5), #290a0a);
+    background-image: linear-gradient(to bottom,#420c0c, #0f0303);
     width: 290px;
     height: 60px;
     margin: auto;
