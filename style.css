@@ -197,7 +197,7 @@ nav > a:active {
 
 .botao {
     padding: 10px;
-    background-image: linear-gradient(to bottom, var(--cor5), #290a0a);
+    background-image: linear-gradient(to bottom,#420c0c, #0f0303);
     width: 260px;
     height: 52px;
     margin: auto;
@@ -301,17 +301,30 @@ main img {
     padding-top: 10px;
 }
 
+@media (max-width: 705px) {
+    .imagens1 {
+      max-width: 400px;
+    }
+  }
+
 
 .imagens2 {
     margin: auto;
     border-radius: 20px;
     max-width: 700px;
     display: block;
+    padding-left: 10px;
+    padding-right: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
 
 
 }
+@media (max-width: 705px) {
+    .imagens2 {
+      max-width: 400px;
+    }
+  }
 
 
 
