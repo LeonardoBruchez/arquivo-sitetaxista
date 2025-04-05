@@ -343,11 +343,6 @@ main img {
    
 }
 
-@media (height:auto) {
-    .lista {
-        height:auto;
-    }
-  }
 .marginlist1 {
     margin-bottom: 30px;
 }
