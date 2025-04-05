@@ -307,7 +307,9 @@ main img {
     border-radius: 20px;
     max-width: 700px;
     display: block;
-    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
 
 }
 
@@ -463,8 +465,8 @@ main img {
 .botao-backpage {
     padding: 10px;
     background-image: linear-gradient(to bottom, var(--cor5), #290a0a);
-    width: 280px;
-    height: 52px;
+    width: 290px;
+    height: 60px;
     margin: auto;
     border-radius: 10px;
     display: flex;
