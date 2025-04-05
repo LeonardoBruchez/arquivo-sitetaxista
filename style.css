@@ -270,7 +270,7 @@ main img {
 .lista {
     background-color:#4e2424;
     min-width: 300px;
-    max-width: 1000px;
+    max-width: 1040px;
     margin: auto;
     border: px solid var(--cor5);
     box-shadow: 1px 2px 9px rgba(0, 0, 0, 0.747);
@@ -316,12 +316,15 @@ main img {
 }
 
 .imagens4 {
-    margin: auto;
+     margin: auto;
     border-radius: 20px;
     max-width: 700px;
     display: block;
     padding-top: 10px;
 
+}
+.galeria-lista {
+    padding-bottom: 30px;
 }
 
 .buttoninstagram {
