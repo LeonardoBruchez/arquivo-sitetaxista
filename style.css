@@ -342,6 +342,12 @@ main img {
     border-radius: 10px;
    
 }
+
+@media (height:auto) {
+    .lista {
+        height:auto;
+    }
+  }
 .marginlist1 {
     margin-bottom: 30px;
 }
