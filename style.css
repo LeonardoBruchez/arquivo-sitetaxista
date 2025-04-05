@@ -164,14 +164,14 @@ header h2 {
 nav {
     background-color:var(--cor5);
     padding: 10px;
-    margin-bottom: 4px;
+    margin-bottom: 1px;
 }
 
 nav a {
     text-decoration:none;
     color: var(--cor4);
     padding: 10px;
-    font-size: 1.2em;
+    font-size: 1em;
     margin-left: 0px;
     
 
@@ -185,9 +185,7 @@ nav > a:hover{
     border: 2px solid var(--cor5);
 }
 
-.conheca-floripa{
-    margin: 0px;
-}
+
 nav > a:active {
     color: yellow;
 }
