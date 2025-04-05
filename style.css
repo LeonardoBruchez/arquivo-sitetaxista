@@ -334,7 +334,8 @@ main img {
     background-color:#4e2424;
     min-width: 300px;
     max-width: 1040px;
-    height: 1605px;
+    height: auto;
+    padding-bottom: 10px;
     margin: auto;
     border: px solid var(--cor5);
     box-shadow: 1px 2px 9px rgba(0, 0, 0, 0.747);
