@@ -100,7 +100,6 @@ html, body {
     background: url('arquivos/imagemfundo.jpg') no-repeat center center fixed;
     background-size: cover; /* Faz a imagem cobrir todo o fundo sem cortes */
     position: relative; /* Mantém a posição correta */
-    min-height: 100vh; /* Garante que o fundo ocupe toda a tela */
 }
 
 .pagina2 {
